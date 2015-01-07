@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/info@iblysolutions.com",
+                url: "http://formspree.io/info@iblysolutions.com",
                 type: "POST",
                 data: {
                     name: name,
