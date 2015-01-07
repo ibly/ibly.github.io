@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 url: "http://formspree.io/info@iblysolutions.com",
-                type: "POST",
+                method: "POST",
                 data: {
                     name: name,
                     phone: phone,
